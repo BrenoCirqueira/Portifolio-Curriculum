@@ -1,0 +1,70 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+ }
+
+ /* Inicio do Header */
+ header {
+     display: flex;
+     align-items: center;
+     background-color: rgb(158, 76, 0);
+     justify-content: center;
+     gap: 40px;
+     height: 7rem;
+     box-shadow: 0px 0px 12px;
+ }
+
+ header img{
+    box-shadow: 0px 0px 12px;
+ }
+ nav {
+     width: 40rem;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ nav a {
+     background-color: rgb(231, 73, 0);
+     padding: 17px 10px;
+     border: 2px solid black;
+     border-radius: 20px;
+ }
+
+ /* fim do header */
+ main {
+     background-image: url(https://img.freepik.com/fotos-premium/antigo-fundo-de-papel-vintage-marrom-textura-de-pagina-retro_625816-393.jpg);
+ }
+
+ main section {
+     border: 2px solid black;
+ }
+
+ #s1 {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ img {}
+
+ /* inicio do footer */
+footer {
+    background-color: rgb(158, 76, 0);;
+    box-shadow: px 0px 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ footer a {
+     color: black;
+ }
+
+ footer a:hover {
+     background-color: rgb(125, 136, 226);
+     border: 1px solid black;
+     border-radius: 9px;
+
+ }

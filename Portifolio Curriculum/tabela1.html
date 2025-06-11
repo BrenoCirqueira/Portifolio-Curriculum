@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        table {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="2px">
+        <tr>
+            <td colspan="3" style="text-align: center;">lista de presentes</td>
+        </tr>
+        <tr>
+            <th>foto</th>
+            <th>Nome</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td><img src="https://dlcdnwebimgs.asus.com/gain/2F3B5145-C902-4F74-B041-4C47F526E242/w717/h525" alt=""
+                    width="100px"></td>
+            <td>4090 rog strix</td>
+            <td>R$5.000</td>
+        </tr>
+        <tr>
+            <td><img src="https://http2.mlstatic.com/D_NQ_NP_921364-MLA79765306086_102024-O.webp" alt="" width="100px">
+            </td>
+            <td>placa de rede 1GB</td>
+            <td>R$90,00</td>
+        </tr>
+        <tr>
+            <td><img src="https://www.fujioka.com.br/arquivos/ids/196160-1000-1000/p_54724_alta_1.png?v=638827639410770000"
+                    alt="" width="100px"></td>
+            <td>Monitor 27"</td>
+            <td>R$700,00</td>
+        </tr>
+        <tr>
+            <td><img src="https://s2-monet.glbimg.com/wGFJ8fwAQDUZl1LPbvs79CmJyEA=/0x0:700x467/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e7c91519bbbb4fadb4e509085746275d/internal_photos/bs/2023/N/c/a4OJPESf27IFFHVYvxJQ/maison-sere.jfif"
+                    alt="" width="100px"></td>
+            <td>Emanuel</td>
+            <td>R$0,00</td>
+        </tr>
+        <tr>
+            <td><img src="data:image/jpeg;base64,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"
+                    alt="" width="100px"></td>
+            <td>AirCooler DeepCool</td>
+            <td>R$300,00</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <select name="" id="">
+        <option value="">Oque prefere me dar?</option>
+        <option value="">4090 rog strix</option>
+        <option value="">placa de rede 1GB</option>
+        <option value="">Monitor 27"</option>
+        <option value="">Emanuel</option>
+        <option value="">AirCooler DeepCool</option>
+    </select>
+
+    <hr>
+    <label for="oi">aqui</label>
+    <input list="ola" id="oi" name="fav">
+    <datalist id="opa">
+        <option value="que"></option>
+        <option value="quei"></option>
+        <option value="queijo"></option>
+    </datalist>
+    <br>
+    <br>
+    tol
+</body>
+
+</html>
